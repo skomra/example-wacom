@@ -39,11 +39,12 @@ int main (int argc, const char * argv[]) {
 				continue;
 
 			if (events[i].code == ABS_X)
-                        	printf("x value %d\n", events[i].value);
+				printf("x value %d\n", events[i].value);
 			if (events[i].code == ABS_Y)
-                        	printf("			y value %d\n", events[i].value);
+				printf("\t\t\ty value %d\n", events[i].value);
 			if (events[i].code == ABS_PRESSURE)
-                        	printf("						pressure value %d\n", events[i].value);
+				printf("\t\t\t\t\t\tpressure value %d\n", events[i].value);
+
 		}
 	}
 
